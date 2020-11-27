@@ -66,11 +66,11 @@
   }
   
   /* social links */
-  .social-links {
+  .button-links {
     margin-top: 15px;
   }
   
-  .social-links span {
+  /* .social-links span {
     display: inline-block;
     width: 36px;
     height: 24px;
@@ -78,31 +78,37 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 5px;
+  } */
+  
+  .btn {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
   }
   
-  .youtube {
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/codepen-files.appspot.com/o/Simple_One_Page_Portfolio%2Fyoutube_icon.svg?alt=media&token=1b70aa55-9bf7-4013-8f3b-94d1b76b5697');
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  
+  }
+
+  /* .youtube {
+    background-image: url('
+    ');
   }
   
   .twitter {
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/codepen-files.appspot.com/o/Simple_One_Page_Portfolio%2Ftwitter_icon.svg?alt=media&token=d1030729-a4c8-4a44-abef-b7c022f6de7e');
+    background-image: url('');
   }
   
-  .facebook {
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/codepen-files.appspot.com/o/Simple_One_Page_Portfolio%2Ffacebook_icon.svg?alt=media&token=30f80080-a68b-41d7-8c67-cad7b33bf2f6');
-  }
-  
-  .linkedin {
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/codepen-files.appspot.com/o/Simple_One_Page_Portfolio%2Flinkedin_icon.svg?alt=media&token=e050ebd7-c0a9-412c-ad13-1f01d0c0d81b');
-  }
-  
-  .instagram {
-    background-image: url('https://firebasestorage.googleapis.com/v0/b/codepen-files.appspot.com/o/Simple_One_Page_Portfolio%2Finstagram_icon.svg?alt=media&token=852e7edd-ad9b-45fd-90b1-5f93f788d4a9');
-  }
+
   
   
   /* YouTube Link */
-  .youtube-link {
+  /* .youtube-link {
     position: absolute;
     bottom: 0px;
     left: 50%;
@@ -117,7 +123,7 @@
     color: #AAA;
     display: inline-block;
     padding: 10px;
-  }
+  } */
   
   
   @media(max-height: 400px) {
