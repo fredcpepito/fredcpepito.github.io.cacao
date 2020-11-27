@@ -1,3 +1,5 @@
+/* profile image section */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +15,7 @@
     height: 100vh;
     display: flex;
     justify-content: space-between;
-    background: #444;
+    background: black;
     color: #DDD;
   }
   
@@ -25,7 +27,7 @@
   
   /* profile image section */
   .profile-image {
-    background: url('https://firebasestorage.googleapis.com/v0/b/codepen-files.appspot.com/o/Simple_One_Page_Portfolio%2Favatar.png?alt=media&token=2f1a741e-572a-454f-b0bf-ff6fe32d93a3') no-repeat bottom center;
+    background: url(Cacao-Tree-with-Multi-Color-Pods-200x300.jpg) no-repeat bottom center;
     background-size: 80% 90%;
   }
   
@@ -39,7 +41,7 @@
   .logo {
     max-width: 270px;
     height: 160px;
-    background: url('https://firebasestorage.googleapis.com/v0/b/codepen-files.appspot.com/o/Simple_One_Page_Portfolio%2Flogo.png?alt=media&token=2d5d1c26-8bd4-471d-8c30-cdd2ba76dc4c') no-repeat right center;
+    background: url(Logo.png) no-repeat right center;
   }
   
   
@@ -123,3 +125,4 @@
       display: none;
     }
   }
+
